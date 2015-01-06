@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 nov. 2014, 11:43:25
+    Author     : formation
+*/
+.blog {
+    width : 60%;
+    margin : 100px;
+}
+/*
+textarea.message {
+    width : 100%;
+    min-height: 80em;
+}*/
+
+.msgContent {
+    text-align: justify;
+}
+
+.msgAuthor {
+    margin-left : 3em;
+    font-style: italic;
+}
+
+.icon {
+    height : 2em;
+    width : 2em;
+    display : inline-block;
+    vertical-align : middle;
+    margin : 0 1em;
+}
+
+

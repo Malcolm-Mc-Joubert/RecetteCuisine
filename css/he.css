@@ -1,0 +1,152 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24 oct. 2014, 15:16:51
+    Author     : formation
+*/
+html, body {
+    background-color: #E0E0E0;
+    margin: 0 0 0 0;    
+    padding: 0 0 0 0;
+    height: 100%;
+
+}
+
+header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+     background-color: #8A00B8;
+    width: 100%;
+    color: #E0E0E0;
+    text-align: center;
+}
+
+img {
+    float: left;
+    width: 180px;
+    height: 120px;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 40px;
+   
+    font-size: 40px;
+    fond: webkit-linear-gradient (#0F3, #F00);
+    webkit-fond-Clip: texte;
+    webkit-text-fill-color: transparent;
+
+
+}
+/*header > div{
+    text-align: center;
+    position: fixed;
+}*/
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: #8A00B8;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-top: medium solid black;
+    z-index: 40;
+    height: 80px;
+}
+
+
+#title {
+    background-color: #8A00B8;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+#title h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin : 0;
+}
+
+#title .connectLkn {
+    display: block;
+    text-align : right;
+    padding-right: 20px;
+}
+
+nav {
+    height: 30px;
+    width: 100%;
+    background-color: #8A00B8;
+    margin-left: auto;
+    margin-right: auto;
+/*  margin-bottom: 5em; */
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    float: left;
+    margin: auto;
+    padding: 0;
+    background-color:#8A00B8;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav li a:hover {
+    color: black;
+}
+
+nav ul li ul {
+    display: none;
+}
+
+nav ul li:hover ul {
+    position: absolute;
+    display: block;
+}
+
+nav li:hover ul li {
+    float: none;
+}
+
+#notImplemented {
+    text-align: center;
+    color: Red;
+    font-weight: bold;
+    font-size: 2em
+}
+
+.center {
+    text-align: center;
+}
+.menu1{
+   margin-left: 380px;
+    
+}
+
+#homeContent{
+    margin-left: 100px;
+    margin-right: 200px;
+    padding-top: 200px;
+    color: #8A458A;
+ 
+}
